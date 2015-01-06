@@ -1,4 +1,7 @@
 Summernote-latex
 ================
 
-This is a plugin built over summer to provide the support for latex rendering.
+This is a plugin built over summernote to provide the support for latex rendering.
+
+The plugin uses:
+* KaTeX plugin
