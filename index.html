@@ -1,0 +1,29 @@
+<html>
+	<meta charset="utf-8">
+	<head>
+		<title>Summernote with LaTeX support</title>
+		<link rel="stylesheet" type="text/css" href="katex/katex.min.css">
+		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="summernote/summernote.css">
+		<link rel="stylesheet" type="text/css" href="summernote/summernote-bs3.css">
+	</head>
+	<body>
+		<div class="container">
+			<textarea id="main"></textarea>
+			<div class="row">
+				<div class="col-sm-12" id="result">
+				</div>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="summernote/summernote.js"></script>
+		<script type="text/javascript" src="katex/katex.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$("#main").summernote();
+		})
+		</script>
+	</body>
+</html>
